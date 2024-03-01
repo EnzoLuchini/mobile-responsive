@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/style.css">
@@ -24,7 +26,7 @@
             <li class="lista-menu-item"> 
                 <a href="#" class="lista-menu-link"> Front-end </a>
             </li>
-            <li class="lista-menu-item"> 
+            <li class="lista-menu-item">    
                 <a href="#" class="lista-menu-link"> Infraestrutura </a>               
             </li>
             <li class="lista-menu-item"> 
@@ -49,7 +51,53 @@
         <p class="banner_texto"> Encontre em nossa estante o que precisa para seu desenvolvimento! </p>
         <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+    <section class="carrosel">
+        <h3 class="carrosel_titulo">ÚLTIMOS LANÇAMENTOS</h3>
+        <!-- Slider main container -->
+<div class="swiper">
+    <div class="swiper-pagination"></div>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"> <img src="/imagens/ApacheKafka.svg"></div>
+      <div class="swiper-slide"><img src="/imagens/Javascript.svg"></div>
+      <div class="swiper-slide"><img src="/imagens/Caelum.svg"></div>
+      <div class="swiper-slide"><img src="/imagens/Portugol.svg"></div>
+      <div class="swiper-slide"><img src="/imagens/Acessibilidade.svg"></div>
+    </div>
+    <!-- If we need pagination -->
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+    </section>
+    <section class="noticia">
+    <div class="noticia_box">
+        <h4>Talvez você também se interesse por...</h4>
+        <p> Angular 11 e Firebase  </p>
+        <p> Construindo uma aplicação integrada com a plataforma do Google </p>
+    <div>
+        <img src="/imagens/Favoritos.svg" alt="logo angular">
+        <img src="/imagens/Compras.svg" alt="sacola de compras">
+    </div>    
+    </div>
+    </section>
     <footer>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script> 
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },   
+      });
+      </script>
 </body>
 </html>
