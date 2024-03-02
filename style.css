@@ -8,7 +8,8 @@
     --branco: #FFFFFF;
     --laranja: #EB9B00;
     --gradiante: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 68%, rgba(9,114,217,1) 100%);
-    --fonte-principal: "Poppins"
+    --fonte-principal: "Poppins";
+    --azul-texto: #002F52;
 }
 
 body {
