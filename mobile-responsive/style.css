@@ -1,6 +1,7 @@
 @import url(/mobile-responsive/header.css);
 @import url(/mobile-responsive/carrosel.css);
 @import url(/mobile-responsive/banner.css);
+@import url(/lista.css);
 
 :root {
     --cor-de-fundo: #EBECEE;
