@@ -45,7 +45,15 @@
     margin: 2em;
 }
 
+.rodape_lista {
+    display: none;
+}
+
 @media screen and (min-width:1024px) {
+
+    .rodape{
+        height: 48vh;
+    }
 
    .email {
        display: flex;
@@ -66,5 +74,23 @@
 
    .email_pesquisa {
        width: 30%;
+}
+
+   .rodapebox {
+      display: flex;    
+}
+
+   .rodape_titulo {
+      font-size: 24px;
+      font-family: var(--fonte-principal);
+      font-weight: 400;
+      padding-right: 53px;
    }
+
+   .rodape_lista{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;    
+   }
+
 }
