@@ -51,7 +51,7 @@
 
 }
 
-@media screen and (min-width:375) {
+@media screen and (min-width:380) {
     .topicos{
        height: 48vh; 
 }
