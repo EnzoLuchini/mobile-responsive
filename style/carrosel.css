@@ -35,6 +35,10 @@
     margin-bottom: 0.5em;
 }
 
+.descrição {
+    margin-right: 1.5em;
+}
+
 .descrição_titulo {
    font-weight: 700;
    color: var(--laranja);
@@ -99,6 +103,39 @@
    .card {
        width: 69%;
        margin: 2em auto ;  
+       align-items: center;
+   }
+   
+}
+
+@media screen and (min-width:1728px) {
+   .carrosel_pc {
+       display: flex;
+       margin: 0 20vw 3em 20vw;
+       align-items: center;
+   }
+  
+   .swiper-pagination {
+       margin: 1em 0;
+}
+
+   .swiper {
+        width: 50%;
+}
+
+   .descrição_titulo{
+       font-size: 28px;
+}
+   .descrição_texto {
+       font-size: 1rem;
+}
+   .card {
+       width: 60%;
+       margin-left: 3em;
+}
+
+   .descrição {
+       margin-right: 1em;
    }
    
 }
