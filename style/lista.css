@@ -50,3 +50,9 @@
 }
 
 }
+
+@media screen and (min-width:375) {
+    .topicos{
+       height: 48vh; 
+}
+}
