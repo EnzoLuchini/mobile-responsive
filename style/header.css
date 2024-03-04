@@ -66,6 +66,10 @@
     display: none;
 }
 
+.container_texto {
+    display: none;
+}
+
 @media screen and (min-width:1024px) {
     .container_titulo, .conatiner_titulo--negrito {
         font-family: var(--fonte-secundario);
@@ -106,5 +110,25 @@
     
     .opcoes_botao{
         display: none;
+    }
+}
+
+@media screen and (min-width:1728px) {
+
+   .conatiner_link{
+       display: flex;
+       align-items: center;
+       text-decoration: none;
+       color: black;
+       padding-right: 30px ;
+    }
+    
+    .opcoes {
+        margin-right: auto;
+        text-transform: uppercase;    
+    }
+
+    .container_texto {
+        display: block;
     }
 }
