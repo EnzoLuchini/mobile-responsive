@@ -94,3 +94,21 @@
    }
 
 }
+
+@media screen and (min-width:1728px) {
+
+   .email {
+       height: 16vh;
+       padding: 3em 30vw;
+   }
+
+   .rodape {
+    padding: 3em 0;
+   }
+
+   .rodape_lista {
+       border-left: 1px solid grey;
+       padding-left: 1em;
+       margin-right: 17em;
+   }   
+}

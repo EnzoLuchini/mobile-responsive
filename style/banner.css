@@ -52,6 +52,7 @@
    }
 
    .banner_pesquisa{
+       width: 50%;
        text-align: center;
    }
 
@@ -59,4 +60,5 @@
       background-position: 7em;
    }
 
+   
 }
