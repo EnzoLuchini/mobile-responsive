@@ -5,6 +5,7 @@
     font-weight: 700;
     font-size: 18px;
     padding: 1em 0 0.5em 0;
+    background-color: var(--branco);
 }
 
  .swiper-slide img {
@@ -74,6 +75,30 @@
 
 @media screen and (min-width:1024px) {
 
+   .carrosel_titulo{
+       font-size: 26px;
+   } 
    
+   .swiper-pagination {
+       margin: 2em 0 3em;
+   }
     
+   .swiper {
+       width: 70%;
+   }
+
+   .swiper2{
+       top: 20%!important;
+   }
+
+   .swiper-button-next, .swiper-button-prev {
+       top: 38%;
+       display: block;
+   }
+
+   .card {
+       width: 69%;
+       margin: 2em auto ;  
+   }
+   
 }
